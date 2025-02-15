@@ -1681,6 +1681,10 @@ textarea.input-field {
 
 /* responsive for larger then 1200px screen */
 @media (min-width: 1200px) {
+  /* reused style */
+  .container {
+    max-width: 1200px;
+  }
   /* hero */
   .hero {
     min-height: 770px;
